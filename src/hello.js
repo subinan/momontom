@@ -21,6 +21,7 @@ function loadName() {
 }
 
 function init() {
+  hello.innerText = "What is your name?"
   loadName();
   nameForm.addEventListener("submit", handleSubmit);
 }

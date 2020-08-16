@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="top">
+      <img class="weatherIcon">
+      <span class="weather"></span>
+    </div>
+
+    <div class="outer">
+      <h1 id="hello"></h1>
+      <form class="js-inputName">
+        <input type="text"/>
+      </form>
+
+      <!--https://www.w3schools.com/graphics/canvas_clock.asp-->
+      <canvas id="canvas" width="200" height="200"></canvas>
+
+      <h2>TO DO</h2>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Add task" />
+      </form>
+      <hr>
+      
+      <div class="pending">
+        <table class="js-pendingList">
+          <th>Pending</th>
+        </table>
+      </div>
+      <div class="finished">
+        <table class="js-finishedList">
+          <th>Finished</th>
+        </table>
+      </div>
+    </div>
+
+    <script src="src/body.js"></script>
+    <script src="src/hello.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/todo.js"></script>
+  </body>
+</html>
